@@ -335,6 +335,12 @@ header nav ul li a {
   justify-content: space-between;
   align-items: center;
 }
+@media (max-width: 800px) {
+  .home .content-pick {
+    flex-direction: column;
+    padding: 3rem;
+  }
+}
 @media (max-width: 500px) {
   .home .content-pick {
     flex-direction: column;
@@ -344,6 +350,11 @@ header nav ul li a {
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+@media (max-width: 800px) {
+  .home .content-pick .destination {
+    width: 100%;
+  }
 }
 @media (max-width: 500px) {
   .home .content-pick .destination {
