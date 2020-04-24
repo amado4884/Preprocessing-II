@@ -97,6 +97,21 @@
         <div class="btn">Sign Me Up!</div>
       </div>
     </section>
+    <section class="form-section">
+      <form action="contact.php" class="form">
+        <h3>Book a Package!</h3>
+        <input type="text" name="name" class="name" placeholder="Name" />
+        <input type="email" name="email" class="name" placeholder="Email" />
+        <input type="tel" name="phone" class="phone" placeholder="Phone Number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+          required>
+        <select name="package" class="package">
+          <option value="Fun In The Sun">Fun In The Sun</option>
+          <option value="Mountain Excursion">Mountain Excursion</option>
+          <option value="Island Getaway">Island Getaway</option>
+        </select>
+        <input type="submit" value="Book Package!">
+      </form>
+    </section>
   </div><!-- container -->
 
   <footer class="footer">
