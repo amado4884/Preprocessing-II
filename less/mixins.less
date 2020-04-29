@@ -1,1 +1,24 @@
 // Mixins in here
+.flex(@direction: row, @mainAxis: center, @crossAxis: center, @wrap: nowrap) {
+  display: flex;
+  flex-direction: @direction;
+  justify-content: @mainAxis;
+  align-items: @crossAxis;
+}
+
+.bottomBorderDotted {
+  border-bottom: .2rem dashed @navigation-border;
+}
+
+;
+
+.signMeUp() {
+  text-align: center;
+  width: 100%;
+  border-radius: 1rem;
+  background-color: @button-bg;
+  padding: 1.5rem 3rem;
+  color: white;
+  font-size: large;
+  font-weight: bolder;
+}
